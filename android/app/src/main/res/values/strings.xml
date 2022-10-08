@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">capacitor image picker demo</string>
+    <string name="title_activity_main">capacitor image picker demo</string>
+    <string name="package_name">dev.jonz94.capacitorjs.plugins.imagepicker.demo</string>
+    <string name="custom_url_scheme">dev.jonz94.capacitorjs.plugins.imagepicker.demo</string>
+</resources>

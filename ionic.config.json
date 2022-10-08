@@ -1,0 +1,8 @@
+{
+  "name": "capacitor image picker demo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "npmClient": "pnpm"
+}

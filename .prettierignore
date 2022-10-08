@@ -1,0 +1,9 @@
+*.md
+.angular/
+.idea/
+android/
+ios/
+node_modules/
+src/polyfills.ts
+www/
+pnpm-lock.yaml
