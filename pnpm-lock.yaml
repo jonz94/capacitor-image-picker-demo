@@ -20,6 +20,7 @@ specifiers:
   '@capacitor/android': ^4.3.0
   '@capacitor/cli': ^4.3.0
   '@capacitor/core': ^4.3.0
+  '@capacitor/ios': ^4.3.0
   '@ionic/angular': ^6.3.0
   '@ionic/angular-toolkit': ^7.0.0
   '@jonz94/capacitor-image-picker': link:../capacitor-image-picker
@@ -52,6 +53,7 @@ dependencies:
   '@angular/router': 14.2.5_2r5lswfukwjmnic65faon22dx4
   '@capacitor/android': 4.3.0_@capacitor+core@4.3.0
   '@capacitor/core': 4.3.0
+  '@capacitor/ios': 4.3.0_@capacitor+core@4.3.0
   '@ionic/angular': 6.3.0_dqc54dbqagjyqhf4fykad3xzei
   '@jonz94/capacitor-image-picker': link:../capacitor-image-picker
   rxjs: 7.5.7
@@ -1756,6 +1758,14 @@ packages:
     resolution: {integrity: sha512-zb225feaiHYcttHqw7SnKVj9gjOh3yoM2ol0Efky4kd80qZvqPHt7nRI1XZmGUKid5j3AVggULd5rRke5OEOXQ==}
     dependencies:
       tslib: 2.4.0
+    dev: false
+
+  /@capacitor/ios/4.3.0_@capacitor+core@4.3.0:
+    resolution: {integrity: sha512-l9vuFzGkopHEWTsbdCwcJF/TLPspuhWSSq5cfB61YO4HAG5o3y/M6TiftL3JTyw/OOJ6cgWtLI/2QMp1TPIU4w==}
+    peerDependencies:
+      '@capacitor/core': ^4.2.0
+    dependencies:
+      '@capacitor/core': 4.3.0
     dev: false
 
   /@csstools/postcss-cascade-layers/1.1.1_postcss@8.4.16:

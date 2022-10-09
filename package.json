@@ -22,6 +22,7 @@
     "@angular/router": "^14.2.5",
     "@capacitor/android": "^4.3.0",
     "@capacitor/core": "^4.3.0",
+    "@capacitor/ios": "^4.3.0",
     "@ionic/angular": "^6.3.0",
     "@jonz94/capacitor-image-picker": "link:../capacitor-image-picker",
     "rxjs": "^7.5.7",
