@@ -18,9 +18,12 @@ specifiers:
   '@angular/platform-browser-dynamic': ^14.2.5
   '@angular/router': ^14.2.5
   '@capacitor/android': ^4.3.0
+  '@capacitor/camera': ^4.1.2
   '@capacitor/cli': ^4.3.0
   '@capacitor/core': ^4.3.0
+  '@capacitor/filesystem': ^4.1.2
   '@capacitor/ios': ^4.3.0
+  '@capawesome/capacitor-file-picker': ^0.5.1
   '@ionic/angular': ^6.3.0
   '@ionic/angular-toolkit': ^7.0.0
   '@jonz94/capacitor-image-picker': link:../capacitor-image-picker
@@ -52,8 +55,11 @@ dependencies:
   '@angular/platform-browser-dynamic': 14.2.5_qnosvl3bcq6o66d35eafiejfki
   '@angular/router': 14.2.5_2r5lswfukwjmnic65faon22dx4
   '@capacitor/android': 4.3.0_@capacitor+core@4.3.0
+  '@capacitor/camera': 4.1.2_@capacitor+core@4.3.0
   '@capacitor/core': 4.3.0
+  '@capacitor/filesystem': 4.1.2_@capacitor+core@4.3.0
   '@capacitor/ios': 4.3.0_@capacitor+core@4.3.0
+  '@capawesome/capacitor-file-picker': 0.5.1_@capacitor+core@4.3.0
   '@ionic/angular': 6.3.0_dqc54dbqagjyqhf4fykad3xzei
   '@jonz94/capacitor-image-picker': link:../capacitor-image-picker
   rxjs: 7.5.7
@@ -1728,6 +1734,14 @@ packages:
       '@capacitor/core': 4.3.0
     dev: false
 
+  /@capacitor/camera/4.1.2_@capacitor+core@4.3.0:
+    resolution: {integrity: sha512-YJMw8sflNj3aa9jSqOgSKOhjKNjc6fb1wxdVMW7Ek6SWsykbcAMWRkecOsSqPNPyDbNRBiwB8P5ZuUC8ZwRm0A==}
+    peerDependencies:
+      '@capacitor/core': ^4.0.0
+    dependencies:
+      '@capacitor/core': 4.3.0
+    dev: false
+
   /@capacitor/cli/4.3.0:
     resolution: {integrity: sha512-+IBIJvxpHWSrtfb6XxPSh5m5h5ijLBqh0aGPxvj0nm7mXUwkT/fuQbeEUVCwIoImmYZCuUAFIkQFB0nWd74bEg==}
     engines: {node: '>=12.4.0'}
@@ -1760,10 +1774,26 @@ packages:
       tslib: 2.4.0
     dev: false
 
+  /@capacitor/filesystem/4.1.2_@capacitor+core@4.3.0:
+    resolution: {integrity: sha512-akQTgNZBIRE5mN8IPagd4TUk9vx8c2xTllX8yBRzf4BhHHkQPzAnEVikmX+qB/114DvRMh3l2s8mtpXiWOg9NQ==}
+    peerDependencies:
+      '@capacitor/core': ^4.0.0
+    dependencies:
+      '@capacitor/core': 4.3.0
+    dev: false
+
   /@capacitor/ios/4.3.0_@capacitor+core@4.3.0:
     resolution: {integrity: sha512-l9vuFzGkopHEWTsbdCwcJF/TLPspuhWSSq5cfB61YO4HAG5o3y/M6TiftL3JTyw/OOJ6cgWtLI/2QMp1TPIU4w==}
     peerDependencies:
       '@capacitor/core': ^4.2.0
+    dependencies:
+      '@capacitor/core': 4.3.0
+    dev: false
+
+  /@capawesome/capacitor-file-picker/0.5.1_@capacitor+core@4.3.0:
+    resolution: {integrity: sha512-1wWW2+u63JZdeqCyCK0xHjzuhqpO8ZG1fPxKq9doapwzYfVWT2PKTGpDyQwb6CjCPINfO0Q8r3BivT+ina/EhQ==}
+    peerDependencies:
+      '@capacitor/core': ^4.0.0
     dependencies:
       '@capacitor/core': 4.3.0
     dev: false

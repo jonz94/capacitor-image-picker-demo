@@ -13,6 +13,16 @@
 
   <div class="grid min-h-full place-content-center">
     <h1>Hello, Tab 1!</h1>
+
+    <div class="my-4 flex">
+      <ng-container *ngFor="let webPath of webPaths">
+        <ion-img [src]="webPath"></ion-img>
+      </ng-container>
+    </div>
+
     <ion-button (click)="present()">present()</ion-button>
+    <ion-button (click)="present(10)">present(10)</ion-button>
+    <ion-button (click)="pickImages()">pickImages()</ion-button>
+    <ion-button (click)="pickFiles()">pickFiles()</ion-button>
   </div>
 </ion-content>
