@@ -16,8 +16,18 @@ export class Tab1Page {
 
   async present(limit = 1) {
     try {
-      const { images } = await ImagePicker.present({ limit });
+      const { images } = await ImagePicker.present({
+        limit,
+        surpassLimitMessage: '最多只能選擇 %d 張圖片',
+        albumsTitleText: '相簿',
+        libraryTitleText: '相簿',
+        titleText: '選擇圖片',
+        cancelText: '取消',
+        doneText: '確認',
+      });
+
       console.log(images);
+
       this.webPaths = images.map((image) => image.webPath);
 
       for (const image of images) {

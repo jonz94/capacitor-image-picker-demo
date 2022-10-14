@@ -4,4 +4,6 @@
     <string name="title_activity_main">capacitor image picker demo</string>
     <string name="package_name">dev.jonz94.capacitorjs.plugins.imagepicker.demo</string>
     <string name="custom_url_scheme">dev.jonz94.capacitorjs.plugins.imagepicker.demo</string>
+
+    <string name="ted_image_picker_album_all">所有圖片</string>
 </resources>
