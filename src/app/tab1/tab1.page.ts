@@ -20,6 +20,7 @@ export class Tab1Page {
         limit,
         surpassLimitMessage: '最多只能選擇 %d 張圖片',
         albumsTitleText: '相簿',
+        albumAllText: '所有圖片',
         libraryTitleText: '相簿',
         titleText: '選擇圖片',
         cancelText: '取消',
