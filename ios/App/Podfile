@@ -11,6 +11,7 @@ install! 'cocoapods', :disable_input_output_paths => true
 def capacitor_pods
   pod 'Capacitor', :path => '../../node_modules/.pnpm/@capacitor+ios@4.3.0_@capacitor+core@4.3.0/node_modules/@capacitor/ios'
   pod 'CapacitorCordova', :path => '../../node_modules/.pnpm/@capacitor+ios@4.3.0_@capacitor+core@4.3.0/node_modules/@capacitor/ios'
+  pod 'CapacitorCommunityMedia', :path => '../../node_modules/.pnpm/@capacitor-community+media@4.0.0-0_@capacitor+core@4.3.0/node_modules/@capacitor-community/media'
   pod 'CapacitorCamera', :path => '../../node_modules/.pnpm/@capacitor+camera@4.1.2_@capacitor+core@4.3.0/node_modules/@capacitor/camera'
   pod 'CapacitorFilesystem', :path => '../../node_modules/.pnpm/@capacitor+filesystem@4.1.2_@capacitor+core@4.3.0/node_modules/@capacitor/filesystem'
   pod 'CapawesomeCapacitorFilePicker', :path => '../../node_modules/.pnpm/@capawesome+capacitor-file-picker@0.5.1_@capacitor+core@4.3.0/node_modules/@capawesome/capacitor-file-picker'

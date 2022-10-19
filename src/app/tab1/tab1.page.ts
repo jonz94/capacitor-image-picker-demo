@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Media } from '@capacitor-community/media';
 import { Camera } from '@capacitor/camera';
 import { Filesystem } from '@capacitor/filesystem';
 import { FilePicker } from '@capawesome/capacitor-file-picker';
@@ -65,7 +66,17 @@ export class Tab1Page {
     }
   }
 
-  async convertBase64DataToFile(base64Data: string, mimeType: string, filename = '') {
+  async getAlbums() {
+    const result = await Media.getAlbums();
+    console.log(result);
+  }
+
+  async getMedias() {
+    const result = await Media.getMedias();
+    console.log(result);
+  }
+
+  private async convertBase64DataToFile(base64Data: string, mimeType: string, filename = '') {
     const url = `data:${mimeType};base64,${base64Data}`;
     return fetch(url)
       .then((res) => res.arrayBuffer())
