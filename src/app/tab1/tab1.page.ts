@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Media } from '@capacitor-community/media';
-import { Camera } from '@capacitor/camera';
+import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
 import { Filesystem } from '@capacitor/filesystem';
 import { FilePicker } from '@capawesome/capacitor-file-picker';
 import { ImagePicker } from '@jonz94/capacitor-image-picker';
@@ -52,6 +52,23 @@ export class Tab1Page {
     try {
       const { photos } = await Camera.pickImages({ limit: 1 });
       console.log(photos);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  async getPhoto() {
+    try {
+      const result = await Camera.requestPermissions();
+      console.log(result);
+
+      const photo = await Camera.getPhoto({
+        resultType: CameraResultType.DataUrl,
+        source: CameraSource.Camera,
+        saveToGallery: true,
+      });
+
+      console.log(photo);
     } catch (error) {
       console.log(error);
     }
