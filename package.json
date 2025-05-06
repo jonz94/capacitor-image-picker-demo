@@ -40,6 +40,7 @@
     "@angular/compiler-cli": "^17.3.12",
     "@angular/language-service": "^17.3.12",
     "@capacitor/cli": "^6.2.1",
+    "@ionic/cli": "^7.2.1",
     "@types/node": "^20.17.39",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",

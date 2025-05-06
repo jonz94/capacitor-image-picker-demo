@@ -1,4 +1,7 @@
 {
   "name": "Capacitor Image Picker Demo",
-  "type": "angular"
+  "type": "angular",
+  "integrations": {
+    "capacitor": {}
+  }
 }
