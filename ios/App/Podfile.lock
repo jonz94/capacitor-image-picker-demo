@@ -1,0 +1,51 @@
+PODS:
+  - Capacitor (6.2.1):
+    - CapacitorCordova
+  - CapacitorCordova (6.2.1)
+  - Jonz94CapacitorImagePicker (3.0.3):
+    - Capacitor
+    - YPImagePicker
+  - PryntTrimmerView (4.0.2)
+  - SteviaLayout (5.1.2)
+  - YPImagePicker (5.2.2.0):
+    - PryntTrimmerView (= 4.0.2)
+    - SteviaLayout (= 5.1.2)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "Jonz94CapacitorImagePicker (from `../../node_modules/@jonz94/capacitor-image-picker`)"
+  - YPImagePicker (from `https://github.com/jonz94/YPImagePicker.git`, tag `5.2.2.0`)
+
+SPEC REPOS:
+  trunk:
+    - PryntTrimmerView
+    - SteviaLayout
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  Jonz94CapacitorImagePicker:
+    :path: "../../node_modules/@jonz94/capacitor-image-picker"
+  YPImagePicker:
+    :git: https://github.com/jonz94/YPImagePicker.git
+    :tag: 5.2.2.0
+
+CHECKOUT OPTIONS:
+  YPImagePicker:
+    :git: https://github.com/jonz94/YPImagePicker.git
+    :tag: 5.2.2.0
+
+SPEC CHECKSUMS:
+  Capacitor: c95400d761e376be9da6be5a05f226c0e865cebf
+  CapacitorCordova: 8d93e14982f440181be7304aa9559ca631d77fff
+  Jonz94CapacitorImagePicker: a84f4273b20266fabb0a5d9a83516ebd557510a1
+  PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
+  SteviaLayout: 05424e528d643657d39ce72c786e4adf13cfc5f2
+  YPImagePicker: 0d82c297b6b867957a4d5bd3999604883ae7a34d
+
+PODFILE CHECKSUM: eaf6f6b241d78485043e2abe3cbfaa33635d0c1e
+
+COCOAPODS: 1.16.2
